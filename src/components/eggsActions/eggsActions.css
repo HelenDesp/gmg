@@ -1,0 +1,320 @@
+.egg {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    background: url(../img/egg1.png) no-repeat;
+    background-size: contain;
+}
+
+.noneEgg {
+    opacity: 0;
+}
+
+.LU1 {
+    top: 137px;
+    left: 75px;
+    transform: rotate(75deg);
+}
+
+.LU2 {
+    top: 151px;
+    left: 95px;
+    transform: rotate(190deg);
+}
+
+.LU3 {
+    top: 165px;
+    left: 120px;
+    transform: rotate(-50deg);
+}
+
+.LU4 {
+    top: 183px;
+    left: 145px;
+    transform: rotate(90deg);
+}
+
+.LU5 {
+    top: 195px;
+    left: 165px;
+    transform: rotate(180deg);
+}
+
+.RU1 {
+    top: 141px;
+    right: 75px;
+    transform: rotate(90deg);
+}
+
+.RU2 {
+    top: 154px;
+    right: 100px;
+    transform: rotate(10deg);
+}
+
+.RU3 {
+    top: 165px;
+    right: 120px;
+    transform: rotate(-20deg);
+}
+
+.RU4 {
+    top: 180px;
+    right: 143px;
+    transform: rotate(-60deg);
+}
+
+.RU5 {
+    top: 193px;
+    right: 165px;
+    transform: rotate(-1200deg);
+}
+
+
+.LD1 {
+    bottom: 106px;
+    left: 75px;
+    transform: rotate(160deg);
+}
+
+.LD2 {
+    bottom: 97px;
+    left: 97px;
+    transform: rotate(250deg);
+}
+
+.LD3 {
+    bottom: 76px;
+    left: 120px;
+    transform: rotate(120deg);
+}
+
+.LD4 {
+    bottom: 67px;
+    left: 142px;
+    transform: rotate(-30deg);
+}
+
+.LD5 {
+    bottom: 50px;
+    left: 165px;
+    transform: rotate(120deg);
+}
+
+.RD1 {
+    bottom: 107px;
+    right: 75px;
+    transform: rotate(120deg);
+}
+
+.RD2 {
+    bottom: 90px;
+    right: 100px;
+    transform: rotate(60deg);
+}
+
+.RD3 {
+    bottom: 82px;
+    right: 120px;
+    transform: rotate(-20deg);
+}
+
+.RD4 {
+    bottom: 68px;
+    right: 143px;
+    transform: rotate(-70deg);
+}
+
+.RD5 {
+    bottom: 55px;
+    right: 165px;
+    transform: rotate(-10deg);
+}
+
+.brokenEggRight{
+    position: absolute;
+    background: url(../img/brokenEgg.png) no-repeat;
+    height: 28px;
+    width: 69px;
+    bottom: 10px;
+    right: 150px;
+    
+}
+
+.brokenEggLeft{
+    position: absolute;
+    background: url(../img/brokenEgg.png) no-repeat;
+    height: 28px;
+    width: 69px;
+    bottom: 10px;
+    left: 150px;
+    transform: scale(-1, 1)
+}
+
+.activeEgg {
+    opacity: 1;
+}
+
+@font-face {
+    font-family: "TacticRound-Bld";
+    src: url("../fonts/TacticRound-Bld.ttf") format("truetype");
+   }
+
+.title_btn_startA {
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    right: -150px;
+    font-family: "TacticRound-Bld";
+    letter-spacing: 1px;
+
+}
+
+
+.title_btn_startB {
+    position: absolute;
+    font-size: 15px;
+    top: 85px;
+    right: -150px;
+    font-family: "TacticRound-Bld";
+    letter-spacing: 1px;
+
+}
+
+.title_btn_time {
+    position: absolute;
+    font-size: 15px;
+    top: 155px;
+    right: -150px;
+    font-family: "TacticRound-Bld";
+    letter-spacing: 1px;
+
+}
+
+.btn_startA {
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    top: -20px;
+    right: -140px;
+    background: #5c5c5c;
+    border-radius: 60px/50px;
+    box-shadow: inset 0px 0px 4px #949494, 0 0 2px 1px black, 0 0 0 5px red;
+}
+
+
+
+.btn_startB {
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    top: 50px;
+    right: -140px;
+    background: #5c5c5c;
+    border-radius: 60px/50px;
+    box-shadow: inset 0px 0px 4px #949494, 0 0 2px 1px black, 0 0 0 5px red;
+}
+
+.btn_time {
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    top: 120px;
+    right: -140px;
+    background: #5c5c5c;
+    border-radius: 60px/50px;
+    box-shadow: inset 0px 0px 4px #949494, 0 0 2px 1px black, 0 0 0 5px red;
+}
+
+.btn_startA:active {
+    background: #4b4b4b;
+    box-shadow: 0 0 1px 0.5px black, 0 0 0 5px red
+}
+
+.btn_startB:active {
+    background: #4b4b4b;
+    box-shadow: 0 0 1px 0.5px black, 0 0 0 5px red
+}
+
+.btn_time:active {
+    background: #4b4b4b;
+    box-shadow: 0 0 1px 0.5px black, 0 0 0 5px red
+}
+
+
+@font-face {
+    font-family: "digital-7";
+    src: url("../fonts/digital_7italic.ttf") format("truetype");
+}
+
+.score {
+    position: absolute;
+    right: 125px;
+    top: 10px;
+    font-size: 80px;
+    font-family: "digital-7";
+}
+
+.mistakes {
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+}
+
+.loss {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    right: 170px;
+    height: 34px;
+    max-width: 120;
+    background: url(../img/loss1.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.theGameAStarted{
+    position:absolute;
+    height: 30px;
+    width: 60px;
+    bottom:0;
+    left: 15px;
+    align-items:center;
+    font-family: "TacticRound-Bld";
+    
+}
+
+.theGameAStarted::before{
+    content: "игра А";
+}
+
+
+.theGameBStarted{
+    position:absolute;
+    height: 30px;
+    width: 60px;
+    bottom:0;
+    right: 15px;
+    align-items:center;
+    font-family: "TacticRound-Bld";
+}
+
+
+
+.theGameBStarted::before{
+    content: "игра Б";
+}
+
+
+.rabbit{
+    background: url(../img/rabit.png) no-repeat;
+    background-size: contain;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    top:40px;
+    left:135px;
+}
