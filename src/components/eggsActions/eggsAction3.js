@@ -70,7 +70,7 @@ export default class EggsActions extends Component {
             score: 500,
             loop: 0
         }
-        const response = await axios.post('http://localhost:5000/api/score/', scoreObj);
+        const response = await axios.post('/api/score', scoreObj);
         console.log(response.data)
     }
 
