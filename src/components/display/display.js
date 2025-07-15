@@ -58,7 +58,7 @@ export default class Display extends Component {
     }
 
     updateLeaderboard() {
-        axios.get(`http://localhost:5000/api/score/`)
+        axios.get(`/api/score`)
             .then(res => {
                 const resdata = res.data;
                 this.setState({ persons: resdata });
@@ -72,7 +72,7 @@ export default class Display extends Component {
             loop: localStorage.getItem('Полный этап')
         }
 
-        const response = await axios.post('http://localhost:5000/api/score/', scoreObj);
+        const response = await axios.post('/api/score', scoreObj);
         console.log(response.data)
         this.updateLeaderboard()
     }
